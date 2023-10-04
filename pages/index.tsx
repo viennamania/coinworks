@@ -8,22 +8,32 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Coinworks</title>
-                <link rel="icon" href="/btc.svg" />
+                <title>MBC Wallet</title>
+               
                 <meta name="og:type" content="website" />
                 <meta
                     name="description"
-                    content="A website that allows you to make your own custom cryptocurrency donation link! No login or registration needed, comes with many cool features."
+                    content="MBC Wallet"
                 />
                 <meta
                     name="keywords"
-                    content="coinworks, donate bitcoin, coinbase, donation"
+                    content="MBC, Microbitcoin, donation"
                 />
                 <meta
                     name="og:description"
-                    content="A website that allows you to make your own custom cryptocurrency donation link! No login or registration needed, comes with many cool features."
+                    content="MBC Wallet"
                 />
-                <meta name="og:image" content="/btc.svg" />
+
+
+
+                <meta property="og:image:width" content="1400"></meta>
+                <meta property="og:image:height" content="1400"></meta>
+
+                <meta name="og:image" content="/microbitcoin.png" />
+
+                <meta name="twitter:card" content="summary_large_image"></meta>
+                <meta name="twitter:image" content="/summary_large_image.png"></meta>
+
                 <meta name="theme-color" content="#f2a900" />
                 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fef3541e62cb41638edfcbc111e1bde8"}'></script>
             </Head>
